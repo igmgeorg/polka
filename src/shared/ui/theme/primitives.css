@@ -1,0 +1,14 @@
+.mono-label, .kicker, .section-index {
+  color: var(--m-accent);
+  font: 500 11px/1.2 var(--font-mono);
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+.mono-title { font: 600 18px/1.18 var(--font-display); }
+.mono-focus:focus-visible { outline: 2px solid var(--m-accent); outline-offset: 2px; }
+.mono-icon-btn { width: 36px; height: 36px; display: grid; place-items: center; border: 2px solid var(--m-dim); background: transparent; color: var(--m-muted); }
+.mono-icon-btn:hover { border-color: var(--m-accent); color: var(--m-accent); }
+.mono-scrollbar { scrollbar-width: thin; scrollbar-color: var(--m-dim) var(--m-bg); }
+.mono-scrollbar::-webkit-scrollbar { width: 10px; height: 10px; }
+.mono-scrollbar::-webkit-scrollbar-track { background: var(--m-bg); }
+.mono-scrollbar::-webkit-scrollbar-thumb { background: var(--m-dim); border: 2px solid var(--m-bg); }
