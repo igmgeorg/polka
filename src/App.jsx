@@ -8,7 +8,8 @@ import Select from "./shared/ui/forms/Select";
 
 const BookDialog = lazy(() => import("./components/BookDialog"));
 
-const allTab = { id: "all", label: "Все книги" };
+const allTab = { id: "all", label: "ALL" };
+const bookKey = (book) => book.bookLink || `${book.originalAuthor || book.author}:${book.originalTitle || book.title}`;
 
 export default function App() {
   const [library, setLibrary] = useState([]);
@@ -43,10 +44,11 @@ export default function App() {
           .toLocaleLowerCase("ru")
           .includes(normalized);
       }
-      if (active === "favorites") return favorites.has(book.coverLink);
+      if (active === "favorites") return favorites.has(bookKey(book));
       return active === "all" || category.id === active;
     }).sort((left, right) => {
-      if (sort === "rating") return Number(right.book.score) - Number(left.book.score);
+      if (sort === "rating") return right.book.score - left.book.score;
+      if (sort === "readers") return right.book.ratingCount - left.book.ratingCount;
       if (sort === "author") return left.book.author.localeCompare(right.book.author, "ru");
       return 0;
     });
@@ -55,7 +57,8 @@ export default function App() {
   function toggleFavorite(book) {
     setFavorites((current) => {
       const next = new Set(current);
-      next.has(book.coverLink) ? next.delete(book.coverLink) : next.add(book.coverLink);
+      const key = bookKey(book);
+      next.has(key) ? next.delete(key) : next.add(key);
       localStorage.setItem("shelf-favorites", JSON.stringify([...next]));
       return next;
     });
@@ -70,7 +73,7 @@ export default function App() {
             baseline={false}
             reservedBrackets
             tabs={[
-              { ...allTab, label: "Все" },
+              allTab,
               ...library.map((category) => ({ ...category, label: ({ fantasy: "Fantasy", scifi: "Sci-Fi", foreign: "Fiction", russian: "Russian Lit" })[category.id] || category.label })),
               { id: "favorites", label: `Saved ${favorites.size}` },
             ]}
@@ -94,7 +97,8 @@ export default function App() {
               <div className="tabs-sort">
                 <Select label="SORT BOOKS" labelHidden value={sort} onChange={setSort} options={[
                   { value: "recommended", label: "By recommendation" },
-                  { value: "rating", label: "LiveLib rating" },
+                  { value: "rating", label: "FantLab rating" },
+                  { value: "readers", label: "Most readers" },
                   { value: "author", label: "Author: A—Z" },
                 ]} />
               </div>
@@ -104,15 +108,15 @@ export default function App() {
           {error && <div className="notice">{error}. Запускайте проект через Vite, а не напрямую как файл.</div>}
           {!error && !library.length && <div className="loading">Собираем библиотеку…</div>}
           <div className="book-grid">
-            {visible.map(({ book, category }, index) => <BookCard key={book.coverLink} book={book} category={category} featured={index === 0 && active !== "all"} favorite={favorites.has(book.coverLink)} onFavorite={toggleFavorite} onOpen={(book, category) => setSelection({ book, category })} />)}
+            {visible.map(({ book, category }, index) => <BookCard key={`${category.id}:${bookKey(book)}`} book={book} category={category} featured={index === 0 && active !== "all"} favorite={favorites.has(bookKey(book))} onFavorite={toggleFavorite} onOpen={(book, category) => setSelection({ book, category })} />)}
           </div>
           {library.length > 0 && visible.length === 0 && <div className="empty">Здесь пока пусто.<br/><button onClick={() => { setQuery(""); setActive("all"); }}>Вернуться ко всем книгам</button></div>}
         </section>
 
       </main>
 
-      <footer><a className="brand" href="#top"><span>П</span>полка</a><p>Личная библиотека · {new Date().getFullYear()}</p><a href="https://www.livelib.ru/" target="_blank" rel="noreferrer">Данные LiveLib ↗</a></footer>
-      <Suspense fallback={null}><BookDialog selection={selection} favorite={selection ? favorites.has(selection.book.coverLink) : false} onFavorite={toggleFavorite} onClose={() => setSelection(null)} /></Suspense>
+      <footer><p>Личная библиотека · {new Date().getFullYear()}</p><p>Обложки FantLab</p></footer>
+      <Suspense fallback={null}><BookDialog selection={selection} favorite={selection ? favorites.has(bookKey(selection.book)) : false} onFavorite={toggleFavorite} onClose={() => setSelection(null)} /></Suspense>
     </div>
   );
 }

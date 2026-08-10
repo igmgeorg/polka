@@ -13,3 +13,6 @@ export function ArrowIcon() {
 export function HeartIcon({ filled = false }) {
   return <svg aria-hidden="true" className={filled ? "filled" : ""} viewBox="0 0 24 24"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1.1L12 21l7.7-7.5 1.1-1.1a5.5 5.5 0 0 0 0-7.8Z"/></svg>;
 }
+export function ReadersIcon() {
+  return <svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><path d="M3.5 19v-1.5A4.5 4.5 0 0 1 8 13h2a4.5 4.5 0 0 1 4.5 4.5V19M15 5.5a3 3 0 0 1 0 5.8M16.5 13.2a4.5 4.5 0 0 1 4 4.5V19"/></svg>;
+}
