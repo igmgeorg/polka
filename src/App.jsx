@@ -20,7 +20,12 @@ export default function App() {
   const [selection, setSelection] = useState(null);
   const [error, setError] = useState("");
   const [theme, setTheme] = useState(() => localStorage.getItem("shelf-theme") || "light");
-  const [readBooks, setReadBooks] = useState(() => new Set(JSON.parse(localStorage.getItem("shelf-read") || localStorage.getItem("shelf-favorites") || "[]")));
+  const [readOverrides, setReadOverrides] = useState(() => {
+    const saved = JSON.parse(localStorage.getItem("shelf-read-overrides") || "{}");
+    const legacy = JSON.parse(localStorage.getItem("shelf-read") || localStorage.getItem("shelf-favorites") || "[]");
+    legacy.forEach((key) => { if (saved[key] === undefined) saved[key] = true; });
+    return saved;
+  });
 
   useEffect(() => { loadLibrary().then(setLibrary).catch((e) => setError(e.message)); }, []);
   useEffect(() => {
@@ -36,6 +41,21 @@ export default function App() {
   }, []);
 
   const books = useMemo(() => library.flatMap((category) => category.books.map((book) => ({ book, category }))), [library]);
+  const isBookRead = (book) => readOverrides[bookKey(book)] ?? book.read === true;
+  const statusCounts = useMemo(() => {
+    const counts = Object.fromEntries(library.map((category) => [category.id, 0]));
+    let all = 0;
+
+    books.forEach(({ book, category }) => {
+      const isRead = readOverrides[bookKey(book)] ?? book.read === true;
+      const matchesRead = readFilter === "all" || (readFilter === "read" ? isRead : !isRead);
+      if (!matchesRead) return;
+      counts[category.id] += 1;
+      all += 1;
+    });
+
+    return { all, categories: counts };
+  }, [books, library, readOverrides, readFilter]);
   const visible = useMemo(() => {
     const normalized = query.trim().toLocaleLowerCase("ru");
     return books.filter(({ book, category }) => {
@@ -45,7 +65,7 @@ export default function App() {
           .toLocaleLowerCase("ru")
           .includes(normalized);
       const matchesGenre = active === "all" || category.id === active;
-      const isRead = readBooks.has(bookKey(book));
+      const isRead = isBookRead(book);
       const matchesRead = readFilter === "all" || (readFilter === "read" ? isRead : !isRead);
       return matchesQuery && matchesGenre && matchesRead;
     }).sort((left, right) => {
@@ -60,14 +80,14 @@ export default function App() {
       return left.book.author.localeCompare(right.book.author, "ru")
         || left.book.title.localeCompare(right.book.title, "ru");
     });
-  }, [books, active, query, readBooks, readFilter, sort]);
+  }, [books, active, query, readOverrides, readFilter, sort]);
 
   function toggleRead(book) {
-    setReadBooks((current) => {
-      const next = new Set(current);
+    setReadOverrides((current) => {
+      const next = { ...current };
       const key = bookKey(book);
-      next.has(key) ? next.delete(key) : next.add(key);
-      localStorage.setItem("shelf-read", JSON.stringify([...next]));
+      next[key] = !(current[key] ?? book.read === true);
+      localStorage.setItem("shelf-read-overrides", JSON.stringify(next));
       return next;
     });
   }
@@ -81,8 +101,8 @@ export default function App() {
             baseline={false}
             reservedBrackets
             tabs={[
-              { ...allTab, count: books.length },
-              ...library.map((category) => ({ ...category, count: category.books.length, label: ({ fantasy: "Fantasy", scifi: "Sci-Fi", foreign: "Fiction", russian: "Russian", beyond: "Beyond" })[category.id] || category.label })),
+              { ...allTab, count: statusCounts.all },
+              ...library.map((category) => ({ ...category, count: statusCounts.categories[category.id] ?? 0, label: ({ fantasy: "Fantasy", scifi: "Sci-Fi", foreign: "Fiction", russian: "Russian", beyond: "Beyond" })[category.id] || category.label })),
             ]}
             current={active}
             onSelect={setActive}
@@ -123,7 +143,7 @@ export default function App() {
           {error && <div className="notice">{error}. Запускайте проект через Vite, а не напрямую как файл.</div>}
           {!error && !library.length && <div className="loading">Собираем библиотеку…</div>}
           <div className="book-grid">
-            {visible.map(({ book, category }, index) => <BookCard key={`${category.id}:${bookKey(book)}`} book={book} category={category} featured={index === 0 && active !== "all"} read={readBooks.has(bookKey(book))} dimRead={readFilter === "all"} onOpen={(book, category) => setSelection({ book, category })} />)}
+            {visible.map(({ book, category }, index) => <BookCard key={`${category.id}:${bookKey(book)}`} book={book} category={category} featured={index === 0 && active !== "all"} read={isBookRead(book)} dimRead={readFilter === "all"} onOpen={(book, category) => setSelection({ book, category })} />)}
           </div>
           {library.length > 0 && visible.length === 0 && <div className="empty">Здесь пока пусто.<br/><button onClick={() => { setQuery(""); setActive("all"); setReadFilter("all"); }}>Вернуться ко всем книгам</button></div>}
         </section>
@@ -131,7 +151,7 @@ export default function App() {
       </main>
 
       <footer><p>Личная библиотека · {new Date().getFullYear()}</p><p>Обложки FantLab</p></footer>
-      <Suspense fallback={null}><BookDialog selection={selection} read={selection ? readBooks.has(bookKey(selection.book)) : false} onRead={toggleRead} onClose={() => setSelection(null)} /></Suspense>
+      <Suspense fallback={null}><BookDialog selection={selection} read={selection ? isBookRead(selection.book) : false} onRead={toggleRead} onClose={() => setSelection(null)} /></Suspense>
     </div>
   );
 }

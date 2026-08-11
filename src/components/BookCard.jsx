@@ -20,7 +20,7 @@ export default function BookCard({ book, category, read, dimRead = true, onOpen,
             <span className="cover-placeholder" aria-hidden="true">{book.title}</span>
           )}
         </button>
-        {read && <span className="read-badge"><CheckIcon /> Прочитано</span>}
+        {read && <span className="read-badge"><CheckIcon /> Read</span>}
       </div>
       <div className="book-card__body">
         <div className="book-card__meta">
