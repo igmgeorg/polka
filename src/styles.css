@@ -80,7 +80,7 @@ svg { width: 14px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-l
 .book-card.is-read .cover-button img, .book-card.is-read .cover-placeholder, .book-card.is-read .book-card__body { opacity: .42; }
 .book-card.is-read:hover .cover-button img, .book-card.is-read:hover .cover-placeholder, .book-card.is-read:hover .book-card__body { opacity: .58; }
 .cover-shell { position: relative; }
-.cover-button { position: relative; display: block; width: 100%; aspect-ratio: 2/3; overflow: hidden; border: 16px solid var(--m-card); border-bottom: 0; padding: 0; background: var(--m-panel); cursor: pointer; }
+.cover-button { position: relative; display: block; width: 100%; aspect-ratio: 2/3; overflow: hidden; border: 16px solid transparent; border-bottom: 0; padding: 0; background: transparent; cursor: pointer; }
 .cover-button img { display: block; width: 100%; height: 100%; object-fit: cover; filter: contrast(1.03); }
 .cover-placeholder { display: flex; width: 100%; height: 100%; align-items: center; justify-content: center; padding: 24px; background: var(--m-ink); color: var(--m-card); font-family: var(--m-font-display); font-size: clamp(18px, 2vw, 28px); font-weight: 700; line-height: 1.05; text-align: center; }
 .book-series { margin: 0 0 4px; color: var(--m-muted); font-family: var(--m-font-mono); font-size: 11px; line-height: 1.35; }
