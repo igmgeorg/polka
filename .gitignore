@@ -49,6 +49,12 @@ next-env.d.ts
 
 # AI assistant skill-sync tooling (mirrors skills across editors/agents)
 /.agents
+!/.agents/
+/.agents/*
+!/.agents/skills/
+/.agents/skills/*
+!/.agents/skills/personal-book-curator/
+!/.agents/skills/personal-book-curator/**
 /.continue
 /.roo
 /skills-lock.json

@@ -31,6 +31,7 @@ export default function UnderlineTabs({ tabs, current, onSelect, ariaLabel, base
           >
             {reservedBrackets && <span className="tab-bracket" aria-hidden="true">[ </span>}
             {tab.label}
+            {tab.count !== undefined && <span className="tab-count">{tab.count}</span>}
             {reservedBrackets && <span className="tab-bracket" aria-hidden="true"> ]</span>}
           </button>
         );

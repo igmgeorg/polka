@@ -1,16 +1,17 @@
-import { HeartIcon, ReadersIcon } from "./Icons";
+import { CheckIcon, ReadersIcon } from "./Icons";
 import Category from "../shared/ui/data-display/Category";
 
-export default function BookCard({ book, category, favorite, onFavorite, onOpen, featured = false }) {
+export default function BookCard({ book, category, read, dimRead = true, onOpen, featured = false }) {
   const compactCategory = {
     fantasy: "Fantasy",
     scifi: "Sci-Fi",
     foreign: "Fiction",
-    russian: "Russian Lit",
+    russian: "Russian",
+    beyond: "Beyond",
   }[category.id] || category.label;
 
   return (
-    <article className={`book-card ${featured ? "book-card--featured" : ""}`}>
+    <article className={`book-card${featured ? " book-card--featured" : ""}${read && dimRead ? " is-read" : ""}`}>
       <div className="cover-shell">
         <button className="cover-button" onClick={() => onOpen(book, category)} aria-label={`Подробнее о книге «${book.title}»`}>
           {book.cover ? (
@@ -19,9 +20,7 @@ export default function BookCard({ book, category, favorite, onFavorite, onOpen,
             <span className="cover-placeholder" aria-hidden="true">{book.title}</span>
           )}
         </button>
-        <button className={`favorite mono-focus${favorite ? " is-active" : ""}`} onClick={() => onFavorite(book)} aria-label={favorite ? "Убрать из сохранённых" : "Сохранить книгу"} title={favorite ? "Убрать из сохранённых" : "Сохранить книгу"}>
-          <HeartIcon filled={favorite} />
-        </button>
+        {read && <span className="read-badge"><CheckIcon /> Прочитано</span>}
       </div>
       <div className="book-card__body">
         <div className="book-card__meta">

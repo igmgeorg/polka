@@ -1,0 +1,4 @@
+interface:
+  display_name: "Персональный букинист"
+  short_description: "Подбирает фантастику и фикшн под ваш вкус"
+  default_prompt: "Use $personal-book-curator to пересобрать мою книжную подборку с учётом вкусов и уже прочитанного."

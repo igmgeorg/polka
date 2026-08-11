@@ -1,6 +1,6 @@
-import { ArrowIcon, HeartIcon } from "./Icons";
+import { ArrowIcon, CheckIcon } from "./Icons";
 
-export default function BookDialog({ selection, favorite, onFavorite, onClose }) {
+export default function BookDialog({ selection, read, onRead, onClose }) {
   if (!selection) return null;
   const { book, category } = selection;
   return (
@@ -13,7 +13,7 @@ export default function BookDialog({ selection, favorite, onFavorite, onClose })
           <div className="dialog-cover dialog-cover--placeholder" aria-hidden="true">{book.title}</div>
         )}
         <div className="dialog-copy">
-          <span className="kicker">{category.label} · № {String(book.rank).padStart(2, "0")}</span>
+          <span className="kicker">{category.label}</span>
           <h2 id="dialog-title">{book.title}</h2>
           {book.series && <p className="book-series">Цикл «{book.series}»</p>}
           <p className="dialog-author">{book.author}</p>
@@ -23,7 +23,7 @@ export default function BookDialog({ selection, favorite, onFavorite, onClose })
           {book.originalTitle && <p className="original">Оригинал: {book.originalTitle} · {book.originalAuthor}</p>}
           <div className="dialog-actions">
             {book.bookLink && <a className="primary-action" href={book.bookLink} target="_blank" rel="noreferrer">Открыть на FantLab <ArrowIcon /></a>}
-            <button className="secondary-action" onClick={() => onFavorite(book)}><HeartIcon filled={favorite} /> {favorite ? "Сохранено" : "Сохранить"}</button>
+            <button className={`secondary-action${read ? " is-active" : ""}`} onClick={() => onRead(book)}><CheckIcon /> {read ? "Прочитано" : "Отметить прочитанной"}</button>
           </div>
         </div>
       </section>
