@@ -2,8 +2,8 @@
 @import "./shared/ui/theme/tokens.css";
 @import "./shared/ui/theme/primitives.css";
 
-:root { --font-display: "Space Grotesk", sans-serif; --font-mono: "JetBrains Mono", monospace; --series-color: #9a5b16; color-scheme: light; }
-:root.dark { --series-color: #e0a55c; color-scheme: dark; }
+:root { --font-display: "Space Grotesk", sans-serif; --font-mono: "JetBrains Mono", monospace; --series-color: #4f7376; color-scheme: light; }
+:root.dark { --series-color: #7f9fa2; color-scheme: dark; }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; background: #f4f4f4; }
 html.dark { background: #181818; }
@@ -33,7 +33,7 @@ svg { width: 14px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-l
 .theme-button { cursor: pointer; }
 
 .catalog { max-width: 1240px; margin: 0 auto; padding: 40px; }
-.toolbar { margin-bottom: 28px; }
+.toolbar { margin-bottom: 40px; }
 .field { position: relative; }
 .field label { position: absolute; top: 24px; left: 0; pointer-events: none; color: var(--m-muted2); font-size: 11px; line-height: 1; font-weight: 500; letter-spacing: .12em; transition: top .15s; }
 .field:focus-within label, .field:has(input:not(:placeholder-shown)) label { top: 0; }
@@ -82,7 +82,7 @@ svg { width: 14px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-l
 .book-card { min-width: 0; display: flex; height: 100%; flex-direction: column; background: var(--m-card); transition: background .15s; }
 .book-card:hover, .book-card:focus-within { background: var(--m-panel); }
 .book-card.is-read .cover-button img, .book-card.is-read .cover-placeholder { opacity: .56; filter: grayscale(.6) contrast(1.03); }
-.book-card.is-read:hover .cover-button img, .book-card.is-read:hover .cover-placeholder, .book-card.is-read:focus-within .cover-button img, .book-card.is-read:focus-within .cover-placeholder { opacity: .72; }
+.book-card.is-read:hover .cover-button img, .book-card.is-read:hover .cover-placeholder, .book-card.is-read:focus-within .cover-button img, .book-card.is-read:focus-within .cover-placeholder { opacity: 1; filter: contrast(1.03); }
 .cover-shell { position: relative; }
 .cover-button { position: relative; display: block; width: 100%; aspect-ratio: 2/3; overflow: hidden; border: 16px solid transparent; border-bottom: 0; padding: 0; background: transparent; cursor: pointer; }
 .cover-button.mono-focus:focus-visible { outline: 0; }
@@ -98,18 +98,11 @@ svg { width: 14px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-l
 .book-card__stats > span { display: inline-flex; align-items: center; gap: 4px; }
 .book-card__stats svg { width: 14px; height: 14px; fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.6; }
 .mono-cat { color: var(--m-accent); white-space: nowrap; }
-.mono-cat[data-tone="scifi"] { color: #2563a8; }
-.mono-cat[data-tone="foreign"] { color: #8a4f9e; }
-.mono-cat[data-tone="russian"] { color: #a14b36; }
-.mono-cat[data-tone="heritage"] { color: #7a6442; }
-.dark .mono-cat[data-tone="scifi"] { color: #73b7ff; }
-.dark .mono-cat[data-tone="foreign"] { color: #d7a2e8; }
-.dark .mono-cat[data-tone="russian"] { color: #ef9a83; }
-.dark .mono-cat[data-tone="heritage"] { color: #d6bb87; }
 .book-card h3 { min-height: 44px; margin: 8px 0 0; overflow: hidden; font: 600 18px/1.18 var(--font-display); }
 .book-card h3 button { position: relative; z-index: var(--m-z-content); display: -webkit-box; overflow: hidden; border: 0; padding: 0; background: transparent; color: inherit; text-align: left; cursor: pointer; transition: color .15s; -webkit-box-orient: vertical; -webkit-line-clamp: 2; line-clamp: 2; }
 .book-card:hover h3 button, .book-card:focus-within h3 button { color: var(--m-accent); }
 .book-card h3 button.book-card__series-title { color: var(--series-color); }
+.book-card:hover h3 button.book-card__series-title, .book-card:focus-within h3 button.book-card__series-title { color: var(--m-accent); }
 .author { width: fit-content; max-width: 100%; margin: 8px 0 0; overflow: hidden; border: 0; padding: 0; background: transparent; color: var(--m-muted); cursor: pointer; font: 400 12px/1.6 var(--font-mono); text-align: left; text-overflow: ellipsis; white-space: nowrap; transition: color .15s; }
 .author:hover, .author:focus-visible { color: var(--m-accent); }
 .read-badge { position: absolute; z-index: var(--m-z-content); top: 20px; left: 20px; min-height: 28px; padding: 0 8px; display: inline-flex; align-items: center; gap: 8px; background: var(--m-accent); color: var(--m-bg); font: 700 11px/1 var(--font-mono); letter-spacing: .12em; text-transform: uppercase; }
