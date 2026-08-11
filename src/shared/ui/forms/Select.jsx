@@ -39,7 +39,7 @@ export default function Select({ label, labelHidden = false, value, onChange, op
       </button>
       {open && <ul className="select-list mono-scrollbar" role="listbox" aria-labelledby={`${id}-label`}>
         {options.map((option) => <li key={option.value} role="option" aria-selected={option.value === value}>
-          <button type="button" onClick={() => { onChange(option.value); setOpen(false); }}>{option.label}{option.value === value && <b>✓</b>}</button>
+          <button className="mono-focus" type="button" onClick={() => { onChange(option.value); setOpen(false); }}>{option.label}{option.value === value && <b>✓</b>}</button>
         </li>)}
       </ul>}
     </div>
