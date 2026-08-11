@@ -102,7 +102,7 @@ export default function App() {
             reservedBrackets
             tabs={[
               { ...allTab, count: statusCounts.all },
-              ...library.map((category) => ({ ...category, count: statusCounts.categories[category.id] ?? 0, label: ({ fantasy: "Fantasy", scifi: "Sci-Fi", foreign: "Fiction", russian: "Russian", beyond: "Beyond" })[category.id] || category.label })),
+              ...library.map((category) => ({ ...category, count: statusCounts.categories[category.id] ?? 0, label: ({ fantasy: "Fantasy", scifi: "Sci-Fi", foreign: "Fiction", russian: "Russian", heritage: "Heritage" })[category.id] || category.label })),
             ]}
             current={active}
             onSelect={setActive}

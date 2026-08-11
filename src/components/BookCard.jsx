@@ -7,7 +7,7 @@ export default function BookCard({ book, category, read, dimRead = true, onOpen,
     scifi: "Sci-Fi",
     foreign: "Fiction",
     russian: "Russian",
-    beyond: "Beyond",
+    heritage: "Heritage",
   }[category.id] || category.label;
 
   return (
