@@ -23,6 +23,7 @@ function libraryDataPlugin() {
 }
 
 export default defineConfig({
+  base: "/books/",
   plugins: [react(), libraryDataPlugin()],
   publicDir: "covers",
   build: { target: "es2020" },

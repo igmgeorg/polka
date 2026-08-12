@@ -184,7 +184,7 @@ export default function App() {
           {error && <div className="notice" role="alert"><span className="kicker">// LOAD ERROR</span><strong>Библиотека недоступна</strong><p>{error}. Запускайте проект через Vite, а не напрямую как файл.</p></div>}
           {!error && !library.length && <div className="loading" role="status" aria-live="polite"><span className="kicker">// INDEXING</span><strong>Собираем библиотеку…</strong></div>}
           <div className="book-grid">
-            {visible.map(({ book, category }, index) => <BookCard key={`${category.id}:${bookKey(book)}`} book={book} category={category} featured={index === 0 && active !== "all"} read={isBookRead(book)} dimRead={readFilter === "all"} onOpen={(book, category) => setSelection({ book, category })} onAuthorSelect={showAuthor} />)}
+            {visible.map(({ book, category }, index) => <BookCard key={`${category.id}:${bookKey(book)}`} book={book} category={category} featured={index === 0 && active !== "all"} read={isBookRead(book)} onOpen={(book, category) => setSelection({ book, category })} onAuthorSelect={showAuthor} />)}
           </div>
           {library.length > 0 && visible.length === 0 && <div className="empty" role="status"><span className="kicker">// NO MATCHES</span><strong>На этой полке ничего не найдено</strong><p>Попробуйте изменить запрос или сбросить фильтры.</p><button className="mono-focus" type="button" onClick={resetFilters}>Показать все книги</button></div>}
         </section>

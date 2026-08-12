@@ -41,14 +41,15 @@ export default function BookDialog({ selection, read, onRead, onAuthorSelect, on
   const seriesBooks = seriesCatalog[book.series] || [];
   const representsSeries = seriesBooks.length > 1;
   const displayTitle = representsSeries ? book.series : book.title;
+  const coverUrl = book.cover ? `${import.meta.env.BASE_URL}${book.cover.replace(/^covers\//, "")}` : null;
   const currentSeriesTitle = seriesBooks.includes(book.title) ? book.title : seriesBooks[0];
   return (
     <div className="dialog-backdrop mono-portal" role="presentation" onMouseDown={onClose}>
       <section ref={dialogRef} className="book-dialog mono-scrollbar" role="dialog" aria-modal="true" aria-labelledby="dialog-title" tabIndex={-1} onMouseDown={(e) => e.stopPropagation()}>
         <button className="dialog-close mono-focus" type="button" onClick={onClose} aria-label="Закрыть">×</button>
         <div className="dialog-art" aria-hidden="true">
-          {book.cover ? (
-            <img className="dialog-cover" src={`/${book.cover.replace(/^covers\//, "")}`} alt="" />
+          {coverUrl ? (
+            <img className="dialog-cover" src={coverUrl} alt="" />
           ) : (
             <div className="dialog-cover dialog-cover--placeholder">{book.title}</div>
           )}

@@ -2,10 +2,11 @@ import { CheckIcon, ReadersIcon } from "./Icons";
 import Category from "../shared/ui/data-display/Category";
 import { seriesCatalog } from "../data/seriesCatalog";
 
-export default function BookCard({ book, category, read, dimRead = true, onOpen, onAuthorSelect, featured = false }) {
+export default function BookCard({ book, category, read, onOpen, onAuthorSelect, featured = false }) {
   const seriesBooks = seriesCatalog[book.series] || [];
   const representsSeries = seriesBooks.length > 1;
   const displayTitle = representsSeries ? book.series : book.title;
+  const coverUrl = book.cover ? `${import.meta.env.BASE_URL}${book.cover.replace(/^covers\//, "")}` : null;
   const compactCategory = {
     fantasy: "Fantasy",
     scifi: "Sci-Fi",
@@ -15,11 +16,11 @@ export default function BookCard({ book, category, read, dimRead = true, onOpen,
   }[category.id] || category.label;
 
   return (
-    <article className={`book-card${featured ? " book-card--featured" : ""}${read && dimRead ? " is-read" : ""}`}>
+    <article className={`book-card${featured ? " book-card--featured" : ""}${read ? " is-read" : ""}`}>
       <div className="cover-shell">
         <button className="cover-button mono-focus" onClick={() => onOpen(book, category)} aria-label={`Подробнее о ${representsSeries ? `цикле «${book.series}»` : `книге «${book.title}»`}`}>
-          {book.cover ? (
-            <img src={`/${book.cover.replace(/^covers\//, "")}`} alt={`Обложка книги «${book.title}»`} loading="lazy" decoding="async" />
+          {coverUrl ? (
+            <img src={coverUrl} alt={`Обложка книги «${book.title}»`} loading="lazy" decoding="async" />
           ) : (
             <span className="cover-placeholder" aria-hidden="true">{book.title}</span>
           )}

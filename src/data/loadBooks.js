@@ -1,4 +1,4 @@
-const DATA_SOURCE = "/books.json";
+const DATA_SOURCE = `${import.meta.env.BASE_URL}books.json`;
 
 export async function loadLibrary() {
   const response = await fetch(DATA_SOURCE);
