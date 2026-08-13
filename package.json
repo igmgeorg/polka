@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "sort:books": "node scripts/sort-books.mjs"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^4.4.1",
