@@ -58,3 +58,4 @@ next-env.d.ts
 /.continue
 /.roo
 /skills-lock.json
+/migration/blog-books/assets/

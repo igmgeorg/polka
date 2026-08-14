@@ -20,6 +20,8 @@
   --m-muted2: #8c8c8c;
   --m-dim: #d6d6d6;
   --m-error: #b91c1c;
+  --m-cover-shadow: rgba(22, 22, 22, 0.18);
+  --m-reading: #587486;
 }
 
 .dark .mono-scope,
@@ -34,6 +36,8 @@
   --m-muted2: #7a7a7a;
   --m-dim: #383838;
   --m-error: #ff6b6b;
+  --m-cover-shadow: rgba(0, 0, 0, 0.38);
+  --m-reading: #64869a;
 }
 
 .dark .mono-portal {

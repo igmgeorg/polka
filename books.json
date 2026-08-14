@@ -12,10 +12,17 @@
         "originalAuthor": "Brandon Sanderson",
         "cover": "covers/fantasy/sanderson--the-way-of-kings.jpg",
         "series": "Архив Буресвета",
-        "score": 8.75,
-        "ratingCount": 4776,
+        "seriesBooks": [
+          "Путь королей",
+          "Слова сияния",
+          "Давший клятву",
+          "Ритм войны",
+          "Ветер и истина"
+        ],
+        "score": 9.01,
+        "ratingCount": 2447,
         "ratingSource": "FantLab",
-        "bookLink": "https://fantlab.ru/work224233"
+        "bookLink": "https://fantlab.ru/work224234"
       },
       {
         "title": "Локон с Изумрудного моря",
@@ -35,10 +42,15 @@
         "originalAuthor": "Brandon Sanderson",
         "cover": "covers/fantasy/sanderson--mistborn-the-final-empire.webp",
         "series": "Рождённый туманом",
-        "score": 8.3,
-        "ratingCount": 3593,
+        "seriesBooks": [
+          "Пепел и сталь",
+          "Источник вознесения",
+          "Герой веков"
+        ],
+        "score": 8.6,
+        "ratingCount": 1997,
         "ratingSource": "FantLab",
-        "bookLink": "https://fantlab.ru/work46392"
+        "bookLink": "https://fantlab.ru/work46393"
       },
       {
         "title": "Убийца войн",
@@ -47,7 +59,7 @@
         "originalAuthor": "Brandon Sanderson",
         "cover": "covers/fantasy/sanderson--warbreaker.jpg",
         "score": 8.14,
-        "ratingCount": 936,
+        "ratingCount": 937,
         "ratingSource": "FantLab",
         "bookLink": "https://fantlab.ru/work46461"
       },
@@ -58,7 +70,7 @@
         "originalAuthor": "Brandon Sanderson",
         "cover": "covers/fantasy/sanderson--elantris.webp",
         "score": 8.02,
-        "ratingCount": 1744,
+        "ratingCount": 1745,
         "ratingSource": "FantLab",
         "bookLink": "https://fantlab.ru/work46391"
       },
@@ -69,7 +81,7 @@
         "originalAuthor": "Guy Gavriel Kay",
         "cover": "covers/fantasy/kay--the-lions-of-al-rassan.jpg",
         "score": 8.48,
-        "ratingCount": 846,
+        "ratingCount": 847,
         "ratingSource": "FantLab",
         "bookLink": "https://fantlab.ru/work3196"
       },
@@ -80,7 +92,7 @@
         "originalAuthor": "Guy Gavriel Kay",
         "cover": "covers/fantasy/kay--tigana.jpg",
         "score": 7.99,
-        "ratingCount": 806,
+        "ratingCount": 807,
         "ratingSource": "FantLab",
         "bookLink": "https://fantlab.ru/work3194"
       },
@@ -91,10 +103,26 @@
         "originalAuthor": "Glen Cook",
         "cover": "covers/fantasy/cook--sweet-silver-blues.jpg",
         "series": "Приключения Гаррета",
-        "score": 7.85,
-        "ratingCount": 2168,
+        "seriesBooks": [
+          "Сладкозвучный серебряный блюз",
+          "Золотые сердца с червоточинкой",
+          "Холодные медные слёзы",
+          "Седая оловянная печаль",
+          "Зловещие латунные тени",
+          "Ночи кровавого железа",
+          "Смертельная ртутная ложь",
+          "Жалкие свинцовые божки",
+          "Жар сумрачной стали",
+          "Злобные чугунные небеса",
+          "Шепчущие никелевые идолы",
+          "Жестокие цинковые мелодии",
+          "Позолоченные латунные кости",
+          "Коварная бронзовая суета"
+        ],
+        "score": 8.41,
+        "ratingCount": 1551,
         "ratingSource": "FantLab",
-        "bookLink": "https://fantlab.ru/work3757"
+        "bookLink": "https://fantlab.ru/work3756"
       },
       {
         "title": "Кровь и железо",
@@ -103,8 +131,13 @@
         "originalAuthor": "Joe Abercrombie",
         "cover": "covers/fantasy/abercrombie--the-blade-itself.jpg",
         "series": "Первый Закон",
+        "seriesBooks": [
+          "Кровь и железо",
+          "Прежде чем их повесят",
+          "Последний довод королей"
+        ],
         "score": 8.39,
-        "ratingCount": 8500,
+        "ratingCount": 8503,
         "ratingSource": "FantLab",
         "bookLink": "https://fantlab.ru/work80145"
       },
@@ -115,21 +148,15 @@
         "originalAuthor": "Domagoj Kurmaic",
         "cover": "covers/fantasy/kurmaic--mother-of-learning.webp",
         "series": "Мать ученья",
-        "score": 8.76,
-        "ratingCount": 735,
+        "seriesBooks": [
+          "Мать ученья I",
+          "Мать ученья II",
+          "Мать ученья III"
+        ],
+        "score": 8.83,
+        "ratingCount": 60,
         "ratingSource": "FantLab",
-        "bookLink": "https://fantlab.ru/work1398806"
-      },
-      {
-        "title": "Пока мы лиц не обрели",
-        "author": "Клайв Стейплз Льюис",
-        "originalTitle": "Till We Have Faces",
-        "originalAuthor": "C. S. Lewis",
-        "cover": "covers/fantasy/lewis--till-we-have-faces.jpg",
-        "score": 8.6,
-        "ratingCount": 207,
-        "ratingSource": "FantLab",
-        "bookLink": "https://fantlab.ru/work11101"
+        "bookLink": "https://fantlab.ru/work1781760"
       },
       {
         "title": "Проклятие Шалиона",
@@ -138,10 +165,15 @@
         "originalAuthor": "Lois McMaster Bujold",
         "cover": "covers/fantasy/bujold--the-curse-of-chalion.webp",
         "series": "Шалион",
-        "score": 8.01,
-        "ratingCount": 1014,
+        "seriesBooks": [
+          "Проклятие Шалиона",
+          "Паладин душ",
+          "Священная охота"
+        ],
+        "score": 7.82,
+        "ratingCount": 530,
         "ratingSource": "FantLab",
-        "bookLink": "https://fantlab.ru/work5036"
+        "bookLink": "https://fantlab.ru/work5386"
       },
       {
         "title": "Ведьмин век",
@@ -150,8 +182,12 @@
         "originalAuthor": "Marina and Sergey Dyachenko",
         "cover": "covers/fantasy/dyachenko--the-scar-the-witch-age.webp",
         "series": "Ведьмин век",
+        "seriesBooks": [
+          "Ведьмин век",
+          "Ведьмин зов"
+        ],
         "score": 7.86,
-        "ratingCount": 169,
+        "ratingCount": 170,
         "ratingSource": "FantLab",
         "bookLink": "https://fantlab.ru/work1228018"
       },
@@ -183,8 +219,8 @@
         "originalTitle": "Neverwhere",
         "originalAuthor": "Neil Gaiman",
         "cover": "covers/fantasy/gaiman--neverwhere.jpg",
-        "score": 8.06,
-        "ratingCount": 3172,
+        "score": 8.05,
+        "ratingCount": 3174,
         "ratingSource": "FantLab",
         "bookLink": "https://fantlab.ru/work10133"
       },
@@ -206,8 +242,12 @@
         "originalAuthor": "Patrick Rothfuss",
         "cover": "covers/fantasy/rothfuss--the-name-of-the-wind.webp",
         "series": "Хроника Убийцы Короля",
+        "seriesBooks": [
+          "Имя ветра",
+          "Страхи мудреца"
+        ],
         "score": 8.57,
-        "ratingCount": 7026,
+        "ratingCount": 7025,
         "ratingSource": "FantLab",
         "bookLink": "https://fantlab.ru/work188170"
       },
@@ -218,8 +258,24 @@
         "originalAuthor": "Robert Jordan",
         "cover": "covers/fantasy/jordan--the-eye-of-the-world.jpg",
         "series": "Колесо времени",
+        "seriesBooks": [
+          "Око мира",
+          "Великая охота",
+          "Возрождённый Дракон",
+          "Восходящая Тень",
+          "Огни небес",
+          "Властелин хаоса",
+          "Корона мечей",
+          "Путь кинжалов",
+          "Сердце зимы",
+          "Перекрёстки сумерек",
+          "Нож сновидений",
+          "Грядущая буря",
+          "Башни Полуночи",
+          "Память света"
+        ],
         "score": 8.07,
-        "ratingCount": 3982,
+        "ratingCount": 3983,
         "ratingSource": "FantLab",
         "bookLink": "https://fantlab.ru/work2689"
       },
@@ -230,10 +286,22 @@
         "originalAuthor": "Roger Zelazny",
         "cover": "covers/fantasy/zelazny--nine-princes-in-amber.webp",
         "series": "Хроники Амбера",
-        "score": 8.48,
-        "ratingCount": 9116,
+        "seriesBooks": [
+          "Девять принцев Амбера",
+          "Ружья Авалона",
+          "Знак Единорога",
+          "Рука Оберона",
+          "Владения Хаоса",
+          "Карты Судьбы",
+          "Кровь Амбера",
+          "Знак Хаоса",
+          "Рыцарь Теней",
+          "Принц Хаоса"
+        ],
+        "score": 8.72,
+        "ratingCount": 7350,
         "ratingSource": "FantLab",
-        "bookLink": "https://fantlab.ru/work18"
+        "bookLink": "https://fantlab.ru/work72"
       },
       {
         "title": "Латунный город",
@@ -243,10 +311,15 @@
         "cover": "covers/fantasy/chakraborty--the-city-of-brass.jpg",
         "coverEdition": "Латунный город",
         "series": "Трилогия Дэвабада",
-        "score": 7.73,
-        "ratingCount": 317,
+        "seriesBooks": [
+          "Латунный город",
+          "Медное королевство",
+          "Золотая империя"
+        ],
+        "score": 8.07,
+        "ratingCount": 114,
         "ratingSource": "FantLab",
-        "bookLink": "https://fantlab.ru/work994426"
+        "bookLink": "https://fantlab.ru/work994427"
       },
       {
         "title": "Пиранези",
@@ -266,10 +339,20 @@
         "originalAuthor": "Terry Pratchett",
         "cover": "covers/fantasy/pratchett--guards-guards.jpg",
         "series": "Городская Стража",
-        "score": 8.53,
-        "ratingCount": 4226,
+        "seriesBooks": [
+          "Стража! Стража!",
+          "К оружию! К оружию!",
+          "Ноги из глины",
+          "Патриот",
+          "Пятый элефант",
+          "Ночная Стража",
+          "Шмяк!",
+          "Дело табак"
+        ],
+        "score": 9.08,
+        "ratingCount": 1920,
         "ratingSource": "FantLab",
-        "bookLink": "https://fantlab.ru/work1717"
+        "bookLink": "https://fantlab.ru/work1961"
       },
       {
         "title": "Народ, или Когда-то мы были дельфинами",
@@ -277,8 +360,8 @@
         "originalTitle": "Nation",
         "originalAuthor": "Terry Pratchett",
         "cover": "covers/fantasy/pratchett--nation.webp",
-        "score": 8.33,
-        "ratingCount": 483,
+        "score": 8.32,
+        "ratingCount": 484,
         "ratingSource": "FantLab",
         "bookLink": "https://fantlab.ru/work38387"
       },
@@ -289,6 +372,11 @@
         "originalAuthor": "Tad Williams",
         "cover": "covers/fantasy/williams--the-dragonbone-chair.jpg",
         "series": "Память, Скорбь и Тёрн",
+        "seriesBooks": [
+          "Трон из костей дракона",
+          "Скала Прощания",
+          "Башня Зелёного Ангела"
+        ],
         "score": 7.67,
         "ratingCount": 1436,
         "ratingSource": "FantLab",
@@ -301,10 +389,18 @@
         "originalAuthor": "Ursula K. Le Guin",
         "cover": "covers/fantasy/guin--a-wizard-of-earthsea.webp",
         "series": "Земноморье",
-        "score": 8.28,
-        "ratingCount": 5071,
+        "seriesBooks": [
+          "Волшебник Земноморья",
+          "Гробницы Атуана",
+          "Самый дальний берег",
+          "Техану",
+          "Сказания Земноморья",
+          "На иных ветрах"
+        ],
+        "score": 8.39,
+        "ratingCount": 1933,
         "ratingSource": "FantLab",
-        "bookLink": "https://fantlab.ru/work1998"
+        "bookLink": "https://fantlab.ru/work2004"
       },
       {
         "title": "Северное сияние",
@@ -313,10 +409,15 @@
         "originalAuthor": "Philip Pullman",
         "cover": "covers/fantasy/pullman--northern-lights.webp",
         "series": "Тёмные начала",
-        "score": 8.12,
-        "ratingCount": 2061,
+        "seriesBooks": [
+          "Северное сияние",
+          "Чудесный нож",
+          "Янтарный телескоп"
+        ],
+        "score": 8.13,
+        "ratingCount": 1198,
         "ratingSource": "FantLab",
-        "bookLink": "https://fantlab.ru/work8662"
+        "bookLink": "https://fantlab.ru/work8666"
       }
     ]
   },
@@ -333,10 +434,15 @@
         "originalAuthor": "Adrian Tchaikovsky",
         "cover": "covers/scifi/tchaikovsky--children-of-time.jpg",
         "series": "Дети времени",
-        "score": 7.85,
-        "ratingCount": 801,
+        "seriesBooks": [
+          "Дети времени",
+          "Дети руин",
+          "Дети памяти"
+        ],
+        "score": 8.19,
+        "ratingCount": 73,
         "ratingSource": "FantLab",
-        "bookLink": "https://fantlab.ru/work790882"
+        "bookLink": "https://fantlab.ru/work1147486"
       },
       {
         "title": "Конец Вечности",
@@ -356,8 +462,17 @@
         "originalAuthor": "Isaac Asimov",
         "cover": "covers/scifi/asimov--foundation.jpg",
         "series": "Основание",
+        "seriesBooks": [
+          "Основание",
+          "Основание и Империя",
+          "Второе Основание",
+          "Край Основания",
+          "Основание и Земля",
+          "Прелюдия к Основанию",
+          "На пути к Основанию"
+        ],
         "score": 8.53,
-        "ratingCount": 5657,
+        "ratingCount": 5658,
         "ratingSource": "FantLab",
         "bookLink": "https://fantlab.ru/work7"
       },
@@ -368,7 +483,7 @@
         "originalAuthor": "Isaac Asimov",
         "cover": "covers/scifi/asimov--the-gods-themselves.jpg",
         "score": 8.42,
-        "ratingCount": 2780,
+        "ratingCount": 2782,
         "ratingSource": "FantLab",
         "bookLink": "https://fantlab.ru/work654"
       },
@@ -379,7 +494,7 @@
         "originalAuthor": "Alastair Reynolds",
         "cover": "covers/scifi/reynolds--house-of-suns.jpg",
         "score": 7.87,
-        "ratingCount": 681,
+        "ratingCount": 684,
         "ratingSource": "FantLab",
         "bookLink": "https://fantlab.ru/work88961"
       },
@@ -401,8 +516,13 @@
         "originalAuthor": "Arkady and Boris Strugatsky",
         "cover": "covers/scifi/strugatsky--prisoners-of-power.webp",
         "series": "Максим Каммерер",
+        "seriesBooks": [
+          "Обитаемый остров",
+          "Жук в муравейнике",
+          "Волны гасят ветер"
+        ],
         "score": 8.69,
-        "ratingCount": 8043,
+        "ratingCount": 8044,
         "ratingSource": "FantLab",
         "bookLink": "https://fantlab.ru/work556"
       },
@@ -413,7 +533,7 @@
         "originalAuthor": "Arkady and Boris Strugatsky",
         "cover": "covers/scifi/strugatsky--the-dead-mountaineers-inn.jpg",
         "score": 8.31,
-        "ratingCount": 4805,
+        "ratingCount": 4813,
         "ratingSource": "FantLab",
         "bookLink": "https://fantlab.ru/work568",
         "read": true
@@ -425,7 +545,7 @@
         "originalAuthor": "Arkady and Boris Strugatsky",
         "cover": "covers/scifi/strugatsky--roadside-picnic.jpg",
         "score": 9,
-        "ratingCount": 13471,
+        "ratingCount": 13497,
         "ratingSource": "FantLab",
         "bookLink": "https://fantlab.ru/work569",
         "read": true
@@ -438,7 +558,7 @@
         "cover": "covers/scifi/strugatsky--monday-begins-on-saturday.jpg",
         "series": "НИИЧАВО",
         "score": 8.69,
-        "ratingCount": 10362,
+        "ratingCount": 10370,
         "ratingSource": "FantLab",
         "bookLink": "https://fantlab.ru/work560",
         "read": true
@@ -450,7 +570,7 @@
         "originalAuthor": "Arthur C. Clarke",
         "cover": "covers/scifi/clarke--the-city-and-the-stars.jpg",
         "score": 8.36,
-        "ratingCount": 1793,
+        "ratingCount": 1801,
         "ratingSource": "FantLab",
         "bookLink": "https://fantlab.ru/work10142"
       },
@@ -473,7 +593,7 @@
         "cover": "covers/scifi/clarke--rendezvous-with-rama.jpg",
         "series": "Рама",
         "score": 8.16,
-        "ratingCount": 2378,
+        "ratingCount": 2379,
         "ratingSource": "FantLab",
         "bookLink": "https://fantlab.ru/work9961"
       },
@@ -484,8 +604,13 @@
         "originalAuthor": "Brandon Sanderson",
         "cover": "covers/scifi/sanderson--legion-the-many-lives-of-stephen-leeds.jpg",
         "series": "Легион",
-        "score": 7.81,
-        "ratingCount": 65,
+        "seriesBooks": [
+          "Легион",
+          "Легион: на поверхности",
+          "Ложь в глазах смотрящего"
+        ],
+        "score": 7.82,
+        "ratingCount": 67,
         "ratingSource": "FantLab",
         "bookLink": "https://fantlab.ru/work1169619"
       },
@@ -496,10 +621,15 @@
         "originalAuthor": "Vernor Vinge",
         "cover": "covers/scifi/vinge--a-fire-upon-the-deep.jpg",
         "series": "Зоны мысли",
-        "score": 8.25,
-        "ratingCount": 2891,
+        "seriesBooks": [
+          "Пламя над бездной",
+          "Глубина в небе",
+          "Дети неба"
+        ],
+        "score": 8.53,
+        "ratingCount": 705,
         "ratingSource": "FantLab",
-        "bookLink": "https://fantlab.ru/work7019"
+        "bookLink": "https://fantlab.ru/work7022"
       },
       {
         "title": "Машина времени",
@@ -508,7 +638,7 @@
         "originalAuthor": "H. G. Wells",
         "cover": "covers/scifi/wells--the-time-machine.jpg",
         "score": 8.46,
-        "ratingCount": 5265,
+        "ratingCount": 5271,
         "ratingSource": "FantLab",
         "bookLink": "https://fantlab.ru/work9452",
         "read": true
@@ -520,7 +650,7 @@
         "originalAuthor": "H. G. Wells",
         "cover": "covers/scifi/wells--the-invisible-man.jpg",
         "score": 8.36,
-        "ratingCount": 4577,
+        "ratingCount": 4585,
         "ratingSource": "FantLab",
         "bookLink": "https://fantlab.ru/work9456",
         "read": true
@@ -532,10 +662,21 @@
         "originalAuthor": "James S. A. Corey",
         "cover": "covers/scifi/corey--leviathan-wakes.jpg",
         "series": "Пространство",
-        "score": 8.12,
-        "ratingCount": 3196,
+        "seriesBooks": [
+          "Пробуждение Левиафана",
+          "Война Калибана",
+          "Врата Абаддона",
+          "Пожар Сиболы",
+          "Игры Немезиды",
+          "Пепел Вавилона",
+          "Восстание Персеполиса",
+          "Гнев Тиамат",
+          "Падение Левиафана"
+        ],
+        "score": 8.45,
+        "ratingCount": 1112,
         "ratingSource": "FantLab",
-        "bookLink": "https://fantlab.ru/work242783"
+        "bookLink": "https://fantlab.ru/work242782"
       },
       {
         "title": "День триффидов",
@@ -555,8 +696,15 @@
         "originalAuthor": "Douglas Adams",
         "cover": "covers/scifi/adams--the-hitchhikers-guide-to-the-galaxy.webp",
         "series": "Автостопом по галактике",
+        "seriesBooks": [
+          "Автостопом по галактике",
+          "Ресторан «У конца Вселенной»",
+          "Жизнь, Вселенная и всё остальное",
+          "Всего хорошего, и спасибо за рыбу!",
+          "В основном безвредна"
+        ],
         "score": 8.16,
-        "ratingCount": 4612,
+        "ratingCount": 4614,
         "ratingSource": "FantLab",
         "bookLink": "https://fantlab.ru/work2076"
       },
@@ -567,10 +715,16 @@
         "originalAuthor": "Dan Simmons",
         "cover": "covers/scifi/simmons--hyperion.jpg",
         "series": "Песни Гипериона",
-        "score": 8.64,
-        "ratingCount": 10523,
+        "seriesBooks": [
+          "Гиперион",
+          "Падение Гипериона",
+          "Эндимион",
+          "Восход Эндимиона"
+        ],
+        "score": 8.83,
+        "ratingCount": 4442,
         "ratingSource": "FantLab",
-        "bookLink": "https://fantlab.ru/work1"
+        "bookLink": "https://fantlab.ru/work92"
       },
       {
         "title": "Цветы для Элджернона",
@@ -579,7 +733,7 @@
         "originalAuthor": "Daniel Keyes",
         "cover": "covers/scifi/keyes--flowers-for-algernon.jpg",
         "score": 8.94,
-        "ratingCount": 8042,
+        "ratingCount": 8052,
         "ratingSource": "FantLab",
         "bookLink": "https://fantlab.ru/work52178",
         "read": true
@@ -591,7 +745,7 @@
         "originalAuthor": "Yevgeny Zamyatin",
         "cover": "covers/scifi/zamyatin--we.webp",
         "score": 8.02,
-        "ratingCount": 3984,
+        "ratingCount": 3988,
         "ratingSource": "FantLab",
         "bookLink": "https://fantlab.ru/work20055",
         "read": true
@@ -603,7 +757,7 @@
         "originalAuthor": "Carl Sagan",
         "cover": "covers/scifi/sagan--contact.jpg",
         "score": 7.9,
-        "ratingCount": 477,
+        "ratingCount": 479,
         "ratingSource": "FantLab",
         "bookLink": "https://fantlab.ru/work106908"
       },
@@ -613,9 +767,8 @@
         "originalTitle": "Those Who Survive",
         "originalAuthor": "Kir Bulychev",
         "cover": "covers/scifi/bulychev--those-who-survive.webp",
-        "series": "Доктор Павлыш",
         "score": 8.99,
-        "ratingCount": 6015,
+        "ratingCount": 6017,
         "ratingSource": "FantLab",
         "bookLink": "https://fantlab.ru/work12012"
       },
@@ -626,7 +779,7 @@
         "originalAuthor": "Clifford D. Simak",
         "cover": "covers/scifi/simak--city.jpg",
         "score": 8.52,
-        "ratingCount": 3695,
+        "ratingCount": 3696,
         "ratingSource": "FantLab",
         "bookLink": "https://fantlab.ru/work6885"
       },
@@ -637,7 +790,7 @@
         "originalAuthor": "Clifford D. Simak",
         "cover": "covers/scifi/simak--the-goblin-reservation.webp",
         "score": 8.36,
-        "ratingCount": 4955,
+        "ratingCount": 4959,
         "ratingSource": "FantLab",
         "bookLink": "https://fantlab.ru/work6901"
       },
@@ -659,7 +812,7 @@
         "originalAuthor": "Kurt Vonnegut",
         "cover": "covers/scifi/vonnegut--the-sirens-of-titan.jpg",
         "score": 8.12,
-        "ratingCount": 1886,
+        "ratingCount": 1887,
         "ratingSource": "FantLab",
         "bookLink": "https://fantlab.ru/work1432"
       },
@@ -670,8 +823,26 @@
         "originalAuthor": "Lois McMaster Bujold",
         "cover": "covers/scifi/bujold--shards-of-honor.webp",
         "series": "Сага о Форкосиганах",
+        "seriesBooks": [
+          "Осколки чести",
+          "Барраяр",
+          "Ученик воина",
+          "Игра форов",
+          "Цетаганда",
+          "Этан с планеты Эйтос",
+          "Братья по оружию",
+          "Границы бесконечности",
+          "Танец отражений",
+          "Память",
+          "Комарра",
+          "Гражданская кампания",
+          "Дипломатическая неприкосновенность",
+          "Союз капитана Форпатрила",
+          "Криоожог",
+          "Джентльмен Джоул и Красная Королева"
+        ],
         "score": 8.12,
-        "ratingCount": 3374,
+        "ratingCount": 3383,
         "ratingSource": "FantLab",
         "bookLink": "https://fantlab.ru/work5023"
       },
@@ -682,10 +853,15 @@
         "originalAuthor": "Cixin Liu",
         "cover": "covers/scifi/liu--the-three-body-problem.webp",
         "series": "В память о прошлом Земли",
-        "score": 7.8,
-        "ratingCount": 4170,
+        "seriesBooks": [
+          "Задача трёх тел",
+          "Тёмный лес",
+          "Вечная жизнь Смерти"
+        ],
+        "score": 8.46,
+        "ratingCount": 1437,
         "ratingSource": "FantLab",
-        "bookLink": "https://fantlab.ru/work602234"
+        "bookLink": "https://fantlab.ru/work602239"
       },
       {
         "title": "О дивный новый мир",
@@ -694,7 +870,7 @@
         "originalAuthor": "Aldous Huxley",
         "cover": "covers/scifi/huxley--brave-new-world.jpg",
         "score": 8.17,
-        "ratingCount": 4035,
+        "ratingCount": 4041,
         "ratingSource": "FantLab",
         "bookLink": "https://fantlab.ru/work31535",
         "read": true
@@ -706,10 +882,14 @@
         "originalAuthor": "Peter Watts",
         "cover": "covers/scifi/watts--blindsight.jpg",
         "series": "Огнепад",
-        "score": 7.87,
-        "ratingCount": 5596,
+        "seriesBooks": [
+          "Ложная слепота",
+          "Эхопраксия"
+        ],
+        "score": 8.14,
+        "ratingCount": 580,
         "ratingSource": "FantLab",
-        "bookLink": "https://fantlab.ru/work134421"
+        "bookLink": "https://fantlab.ru/work218382"
       },
       {
         "title": "Дверь в лето",
@@ -718,7 +898,7 @@
         "originalAuthor": "Robert A. Heinlein",
         "cover": "covers/scifi/heinlein--the-door-into-summer.webp",
         "score": 8.6,
-        "ratingCount": 7051,
+        "ratingCount": 7054,
         "ratingSource": "FantLab",
         "bookLink": "https://fantlab.ru/work2793"
       },
@@ -740,10 +920,15 @@
         "originalAuthor": "Robert Charles Wilson",
         "cover": "covers/scifi/wilson--spin.jpg",
         "series": "Спин",
-        "score": 7.94,
-        "ratingCount": 2566,
+        "seriesBooks": [
+          "Спин",
+          "Ось",
+          "Вихрь"
+        ],
+        "score": 7.6,
+        "ratingCount": 422,
         "ratingSource": "FantLab",
-        "bookLink": "https://fantlab.ru/work111170"
+        "bookLink": "https://fantlab.ru/work122094"
       },
       {
         "title": "Корпорация «Бессмертие»",
@@ -763,6 +948,12 @@
         "originalAuthor": "Robert Sheckley",
         "cover": "covers/scifi/sheckley--watchbird-and-other-stories.jpg",
         "series": "Рассказы Роберта Шекли",
+        "seriesBooks": [
+          "Страж-птица",
+          "Абсолютное оружие",
+          "Билет на планету Транай",
+          "Кое-что задаром"
+        ],
         "score": 8.43,
         "ratingCount": 2205,
         "ratingSource": "FantLab",
@@ -775,7 +966,7 @@
         "originalAuthor": "Roger Zelazny",
         "cover": "covers/scifi/zelazny--lord-of-light.webp",
         "score": 8.52,
-        "ratingCount": 3540,
+        "ratingCount": 3541,
         "ratingSource": "FantLab",
         "bookLink": "https://fantlab.ru/work14"
       },
@@ -785,8 +976,8 @@
         "originalTitle": "Fahrenheit 451",
         "originalAuthor": "Ray Bradbury",
         "cover": "covers/scifi/bradbury--fahrenheit-451.jpg",
-        "score": 8.5,
-        "ratingCount": 10710,
+        "score": 8.49,
+        "ratingCount": 10788,
         "ratingSource": "FantLab",
         "bookLink": "https://fantlab.ru/work5039",
         "read": true
@@ -809,7 +1000,7 @@
         "originalAuthor": "Stanislaw Lem",
         "cover": "covers/scifi/lem--the-invincible.jpg",
         "score": 8.57,
-        "ratingCount": 4676,
+        "ratingCount": 4678,
         "ratingSource": "FantLab",
         "bookLink": "https://fantlab.ru/work3113"
       },
@@ -831,7 +1022,7 @@
         "originalAuthor": "Ted Chiang",
         "cover": "covers/scifi/chiang--story-of-your-life.webp",
         "score": 8.27,
-        "ratingCount": 2255,
+        "ratingCount": 2265,
         "ratingSource": "FantLab",
         "bookLink": "https://fantlab.ru/work10923"
       },
@@ -864,7 +1055,7 @@
         "originalAuthor": "Philip K. Dick",
         "cover": "covers/scifi/dick--ubik.jpg",
         "score": 8.46,
-        "ratingCount": 3553,
+        "ratingCount": 3555,
         "ratingSource": "FantLab",
         "bookLink": "https://fantlab.ru/work5377"
       },
@@ -875,7 +1066,7 @@
         "originalAuthor": "Andy Weir",
         "cover": "covers/scifi/weir--the-martian.jpg",
         "score": 8.26,
-        "ratingCount": 5018,
+        "ratingCount": 5048,
         "ratingSource": "FantLab",
         "bookLink": "https://fantlab.ru/work523215",
         "read": true
@@ -886,8 +1077,8 @@
         "originalTitle": "Project Hail Mary",
         "originalAuthor": "Andy Weir",
         "cover": "covers/scifi/weir--project-hail-mary.webp",
-        "score": 8.22,
-        "ratingCount": 2328,
+        "score": 8.23,
+        "ratingCount": 2334,
         "ratingSource": "FantLab",
         "bookLink": "https://fantlab.ru/work1303446"
       }
@@ -905,8 +1096,8 @@
         "originalTitle": "La Peste",
         "originalAuthor": "Albert Camus",
         "cover": "covers/fiction/camus--the-plague.jpg",
-        "score": 7.9,
-        "ratingCount": 563,
+        "score": 7.89,
+        "ratingCount": 568,
         "ratingSource": "FantLab",
         "bookLink": "https://fantlab.ru/work306028",
         "read": true
@@ -918,7 +1109,7 @@
         "originalAuthor": "A. J. Cronin",
         "cover": "covers/fiction/cronin--hatters-castle.jpg",
         "score": 8.58,
-        "ratingCount": 380,
+        "ratingCount": 399,
         "ratingSource": "FantLab",
         "bookLink": "https://fantlab.ru/work315147"
       },
@@ -940,7 +1131,7 @@
         "originalAuthor": "Walter Scott",
         "cover": "covers/fiction/scott--ivanhoe.jpg",
         "score": 8.52,
-        "ratingCount": 1010,
+        "ratingCount": 1011,
         "ratingSource": "FantLab",
         "bookLink": "https://fantlab.ru/work225922",
         "read": true
@@ -963,7 +1154,7 @@
         "originalAuthor": "Gustave Flaubert",
         "cover": "covers/fiction/flaubert--madame-bovary.jpg",
         "score": 7.85,
-        "ratingCount": 536,
+        "ratingCount": 541,
         "ratingSource": "FantLab",
         "read": true,
         "bookLink": "https://fantlab.ru/work218850"
@@ -986,7 +1177,7 @@
         "originalAuthor": "Jane Austen",
         "cover": "covers/fiction/austen--pride-and-prejudice.jpg",
         "score": 8.61,
-        "ratingCount": 921,
+        "ratingCount": 922,
         "ratingSource": "FantLab",
         "bookLink": "https://fantlab.ru/work218849"
       },
@@ -1008,7 +1199,7 @@
         "originalAuthor": "Jerome K. Jerome",
         "cover": "covers/fiction/jerome--three-men-in-a-boat-to-say-nothing-of-the-dog.jpg",
         "score": 8.72,
-        "ratingCount": 1806,
+        "ratingCount": 1811,
         "ratingSource": "FantLab",
         "bookLink": "https://fantlab.ru/work205174"
       },
@@ -1019,7 +1210,7 @@
         "originalAuthor": "John Steinbeck",
         "cover": "covers/fiction/steinbeck--east-of-eden.jpg",
         "score": 8.64,
-        "ratingCount": 373,
+        "ratingCount": 374,
         "ratingSource": "FantLab",
         "bookLink": "https://fantlab.ru/work261013"
       },
@@ -1030,10 +1221,14 @@
         "originalAuthor": "John Steinbeck",
         "cover": "covers/fiction/steinbeck--cannery-row.webp",
         "series": "Королевская ночлежка",
-        "score": 8.25,
-        "ratingCount": 215,
+        "seriesBooks": [
+          "Консервный ряд",
+          "Благостный четверг"
+        ],
+        "score": 8.57,
+        "ratingCount": 44,
         "ratingSource": "FantLab",
-        "bookLink": "https://fantlab.ru/work261011"
+        "bookLink": "https://fantlab.ru/work261970"
       },
       {
         "title": "1984",
@@ -1042,7 +1237,7 @@
         "originalAuthor": "George Orwell",
         "cover": "covers/fiction/orwell--nineteen-eighty-four.jpg",
         "score": 8.69,
-        "ratingCount": 8737,
+        "ratingCount": 8747,
         "ratingSource": "FantLab",
         "read": true,
         "bookLink": "https://fantlab.ru/work9632"
@@ -1053,8 +1248,8 @@
         "originalTitle": "Animal Farm",
         "originalAuthor": "George Orwell",
         "cover": "covers/fiction/orwell--animal-farm.jpg",
-        "score": 8.59,
-        "ratingCount": 4188,
+        "score": 8.58,
+        "ratingCount": 4210,
         "ratingSource": "FantLab",
         "read": true,
         "bookLink": "https://fantlab.ru/work9633"
@@ -1066,10 +1261,16 @@
         "originalAuthor": "Carlos Ruiz Zafón",
         "cover": "covers/fiction/zafon--the-shadow-of-the-wind.webp",
         "series": "Кладбище забытых книг",
-        "score": 8.08,
-        "ratingCount": 916,
+        "seriesBooks": [
+          "Тень ветра",
+          "Игра ангела",
+          "Узник Неба",
+          "Лабиринт призраков"
+        ],
+        "score": 8.6,
+        "ratingCount": 157,
         "ratingSource": "FantLab",
-        "bookLink": "https://fantlab.ru/work215344"
+        "bookLink": "https://fantlab.ru/work220920"
       },
       {
         "title": "Столпы Земли",
@@ -1078,10 +1279,17 @@
         "originalAuthor": "Ken Follett",
         "cover": "covers/fiction/follett--the-pillars-of-the-earth.jpg",
         "series": "Кингсбридж",
-        "score": 8.28,
-        "ratingCount": 413,
+        "seriesBooks": [
+          "Столпы Земли",
+          "Мир без конца",
+          "Столп огненный",
+          "Вечер и утро",
+          "Доспехи света"
+        ],
+        "score": 8.62,
+        "ratingCount": 64,
         "ratingSource": "FantLab",
-        "bookLink": "https://fantlab.ru/work227954"
+        "bookLink": "https://fantlab.ru/work227985"
       },
       {
         "title": "Унесённые ветром",
@@ -1089,8 +1297,8 @@
         "originalTitle": "Gone with the Wind",
         "originalAuthor": "Margaret Mitchell",
         "cover": "covers/fiction/mitchell--gone-with-the-wind.jpg",
-        "score": 8.88,
-        "ratingCount": 926,
+        "score": 8.89,
+        "ratingCount": 936,
         "ratingSource": "FantLab",
         "bookLink": "https://fantlab.ru/work337101"
       },
@@ -1101,10 +1309,15 @@
         "originalAuthor": "Rafael Sabatini",
         "cover": "covers/fiction/sabatini--captain-blood-his-odyssey.jpg",
         "series": "Капитан Блад",
-        "score": 8.94,
-        "ratingCount": 1562,
+        "seriesBooks": [
+          "Одиссея капитана Блада",
+          "Хроника капитана Блада",
+          "Удачи капитана Блада"
+        ],
+        "score": 9,
+        "ratingCount": 485,
         "ratingSource": "FantLab",
-        "bookLink": "https://fantlab.ru/work148861"
+        "bookLink": "https://fantlab.ru/work278315"
       },
       {
         "title": "Я, Клавдий",
@@ -1113,10 +1326,14 @@
         "originalAuthor": "Robert Graves",
         "cover": "covers/fiction/graves--i-claudius.jpg",
         "series": "Клавдий",
-        "score": 8.55,
-        "ratingCount": 151,
+        "seriesBooks": [
+          "Я, Клавдий",
+          "Божественный Клавдий"
+        ],
+        "score": 8.87,
+        "ratingCount": 45,
         "ratingSource": "FantLab",
-        "bookLink": "https://fantlab.ru/work190369"
+        "bookLink": "https://fantlab.ru/work190371"
       },
       {
         "title": "Странная история доктора Джекила и мистера Хайда",
@@ -1125,7 +1342,7 @@
         "originalAuthor": "Robert Louis Stevenson",
         "cover": "covers/fiction/stevenson--the-strange-case-of-dr-jekyll-and-mr-hyde.jpg",
         "score": 8.47,
-        "ratingCount": 2005,
+        "ratingCount": 2010,
         "ratingSource": "FantLab",
         "bookLink": "https://fantlab.ru/work56154"
       },
@@ -1147,7 +1364,7 @@
         "originalAuthor": "W. Somerset Maugham",
         "cover": "covers/fiction/maugham--the-moon-and-sixpence.jpg",
         "score": 8.19,
-        "ratingCount": 316,
+        "ratingCount": 317,
         "ratingSource": "FantLab",
         "bookLink": "https://fantlab.ru/work215025"
       },
@@ -1158,7 +1375,7 @@
         "originalAuthor": "W. Somerset Maugham",
         "cover": "covers/fiction/maugham--theatre.jpg",
         "score": 8.26,
-        "ratingCount": 397,
+        "ratingCount": 398,
         "ratingSource": "FantLab",
         "bookLink": "https://fantlab.ru/work261127"
       },
@@ -1169,7 +1386,7 @@
         "originalAuthor": "Stephen King",
         "cover": "covers/fiction/king--11-22-63.jpg",
         "score": 8.47,
-        "ratingCount": 4213,
+        "ratingCount": 4214,
         "ratingSource": "FantLab",
         "bookLink": "https://fantlab.ru/work253676"
       },
@@ -1179,8 +1396,8 @@
         "originalTitle": "The Genius",
         "originalAuthor": "Theodore Dreiser",
         "cover": "covers/fiction/dreiser--the-genius.jpg",
-        "score": 8.27,
-        "ratingCount": 102,
+        "score": 8.28,
+        "ratingCount": 104,
         "ratingSource": "FantLab",
         "bookLink": "https://fantlab.ru/work620217"
       },
@@ -1191,8 +1408,13 @@
         "originalAuthor": "Theodore Dreiser",
         "cover": "covers/fiction/dreiser--the-financier.jpg",
         "series": "Трилогия желания",
+        "seriesBooks": [
+          "Финансист",
+          "Титан",
+          "Стоик"
+        ],
         "score": 8.28,
-        "ratingCount": 624,
+        "ratingCount": 627,
         "ratingSource": "FantLab",
         "bookLink": "https://fantlab.ru/work414390"
       },
@@ -1202,7 +1424,7 @@
         "originalTitle": "Der Zauberberg",
         "originalAuthor": "Thomas Mann",
         "cover": "covers/fiction/mann--der-zauberberg.webp",
-        "score": 8.36,
+        "score": 8.35,
         "ratingCount": 212,
         "ratingSource": "FantLab",
         "bookLink": "https://fantlab.ru/work306059"
@@ -1225,7 +1447,7 @@
         "originalAuthor": "Thornton Wilder",
         "cover": "covers/fiction/wilder--the-bridge-of-san-luis-rey.jpg",
         "score": 8.01,
-        "ratingCount": 150,
+        "ratingCount": 152,
         "ratingSource": "FantLab",
         "bookLink": "https://fantlab.ru/work332390",
         "read": true
@@ -1248,7 +1470,7 @@
         "originalAuthor": "William Golding",
         "cover": "covers/fiction/golding--lord-of-the-flies.jpg",
         "score": 8.05,
-        "ratingCount": 2508,
+        "ratingCount": 2516,
         "ratingSource": "FantLab",
         "bookLink": "https://fantlab.ru/work85390",
         "read": true
@@ -1270,8 +1492,8 @@
         "originalTitle": "Great Expectations",
         "originalAuthor": "Charles Dickens",
         "cover": "covers/fiction/dickens--great-expectations.webp",
-        "score": 8.4,
-        "ratingCount": 534,
+        "score": 8.39,
+        "ratingCount": 547,
         "ratingSource": "FantLab",
         "bookLink": "https://fantlab.ru/work154658"
       },
@@ -1315,7 +1537,7 @@
         "originalAuthor": "Erich Maria Remarque",
         "cover": "covers/fiction/remarque--all-quiet-on-the-western-front.jpg",
         "score": 8.99,
-        "ratingCount": 1837,
+        "ratingCount": 1846,
         "ratingSource": "FantLab",
         "bookLink": "https://fantlab.ru/work277609",
         "read": true
@@ -1327,7 +1549,7 @@
         "originalAuthor": "Erich Maria Remarque",
         "cover": "covers/fiction/remarque--three-comrades.jpg",
         "score": 8.86,
-        "ratingCount": 1875,
+        "ratingCount": 1879,
         "ratingSource": "FantLab",
         "bookLink": "https://fantlab.ru/work261122",
         "read": true
@@ -1338,8 +1560,8 @@
         "originalTitle": "Arch of Triumph",
         "originalAuthor": "Erich Maria Remarque",
         "cover": "covers/fiction/remarque--arch-of-triumph.webp",
-        "score": 8.61,
-        "ratingCount": 1039,
+        "score": 8.62,
+        "ratingCount": 1041,
         "ratingSource": "FantLab",
         "bookLink": "https://fantlab.ru/work261123"
       }
@@ -1358,7 +1580,7 @@
         "originalAuthor": "Alexander Pushkin",
         "cover": "covers/russian/pushkin--eugene-onegin.jpg",
         "score": 8.76,
-        "ratingCount": 1722,
+        "ratingCount": 1735,
         "ratingSource": "FantLab",
         "read": true,
         "bookLink": "https://fantlab.ru/work144918"
@@ -1370,7 +1592,7 @@
         "originalAuthor": "Alexander Pushkin",
         "cover": "covers/russian/pushkin--the-captains-daughter.jpg",
         "score": 8.39,
-        "ratingCount": 1385,
+        "ratingCount": 1390,
         "ratingSource": "FantLab",
         "read": true,
         "bookLink": "https://fantlab.ru/work149436"
@@ -1381,8 +1603,8 @@
         "originalTitle": "The Queen of Spades",
         "originalAuthor": "Alexander Pushkin",
         "cover": "covers/russian/pushkin--the-queen-of-spades.webp",
-        "score": 8.47,
-        "ratingCount": 1262,
+        "score": 8.46,
+        "ratingCount": 1271,
         "ratingSource": "FantLab",
         "bookLink": "https://fantlab.ru/work115519"
       },
@@ -1393,7 +1615,7 @@
         "originalAuthor": "Veniamin Kaverin",
         "cover": "covers/russian/kaverin--the-two-captains.webp",
         "score": 8.74,
-        "ratingCount": 1626,
+        "ratingCount": 1630,
         "ratingSource": "FantLab",
         "bookLink": "https://fantlab.ru/work120094"
       },
@@ -1404,7 +1626,7 @@
         "originalAuthor": "Eugene Vodolazkin",
         "cover": "covers/russian/vodolazkin--laurus.jpg",
         "score": 8.01,
-        "ratingCount": 452,
+        "ratingCount": 455,
         "ratingSource": "FantLab",
         "bookLink": "https://fantlab.ru/work434600"
       },
@@ -1415,7 +1637,7 @@
         "originalAuthor": "Ivan Turgenev",
         "cover": "covers/russian/turgenev--fathers-and-sons.jpg",
         "score": 8.23,
-        "ratingCount": 1697,
+        "ratingCount": 1705,
         "ratingSource": "FantLab",
         "read": true,
         "bookLink": "https://fantlab.ru/work166356"
@@ -1427,7 +1649,7 @@
         "originalAuthor": "Leo Tolstoy",
         "cover": "covers/russian/tolstoy--anna-karenina.jpg",
         "score": 8.3,
-        "ratingCount": 1043,
+        "ratingCount": 1044,
         "ratingSource": "FantLab",
         "bookLink": "https://fantlab.ru/work270306"
       },
@@ -1438,7 +1660,7 @@
         "originalAuthor": "Mikhail Bulgakov",
         "cover": "covers/russian/bulgakov--the-master-and-margarita.jpg",
         "score": 9.07,
-        "ratingCount": 11846,
+        "ratingCount": 11850,
         "ratingSource": "FantLab",
         "bookLink": "https://fantlab.ru/work9164"
       },
@@ -1448,8 +1670,8 @@
         "originalTitle": "A Hero of Our Time",
         "originalAuthor": "Mikhail Lermontov",
         "cover": "covers/russian/lermontov--a-hero-of-our-time.jpg",
-        "score": 8.55,
-        "ratingCount": 1557,
+        "score": 8.54,
+        "ratingCount": 1573,
         "ratingSource": "FantLab",
         "bookLink": "https://fantlab.ru/work238543",
         "read": true
@@ -1483,7 +1705,7 @@
         "originalAuthor": "Fyodor Dostoevsky",
         "cover": "covers/russian/dostoevsky--the-idiot.jpg",
         "score": 8.75,
-        "ratingCount": 1925,
+        "ratingCount": 1948,
         "ratingSource": "FantLab",
         "bookLink": "https://fantlab.ru/work225064"
       },
@@ -1512,8 +1734,8 @@
         "originalTitle": "Odyssey",
         "originalAuthor": "Homer",
         "cover": "covers/heritage/homer--odyssey.jpg",
-        "score": 9.16,
-        "ratingCount": 788,
+        "score": 9.15,
+        "ratingCount": 798,
         "ratingSource": "FantLab",
         "bookLink": "https://fantlab.ru/work239770"
       },
@@ -1546,7 +1768,7 @@
         "originalAuthor": "William Shakespeare",
         "cover": "covers/heritage/shakespeare--the-tragedy-of-hamlet-prince-of-denmark.jpg",
         "score": 9.03,
-        "ratingCount": 1412,
+        "ratingCount": 1416,
         "ratingSource": "FantLab",
         "bookLink": "https://fantlab.ru/work96537"
       }
