@@ -1193,6 +1193,18 @@
         "bookLink": "https://fantlab.ru/work276598"
       },
       {
+        "title": "Мартин Иден",
+        "author": "Джек Лондон",
+        "originalTitle": "Martin Eden",
+        "originalAuthor": "Jack London",
+        "cover": "covers/fiction/london--martin-eden.png",
+        "score": 8.7,
+        "ratingCount": 2343,
+        "ratingSource": "FantLab",
+        "bookLink": "https://fantlab.ru/work183818",
+        "read": true
+      },
+      {
         "title": "Трое в лодке, не считая собаки",
         "author": "Джером К. Джером",
         "originalTitle": "Three Men in a Boat (To Say Nothing of the Dog)",
